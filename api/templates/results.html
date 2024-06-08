@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Results</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Search Results</h1>
+        <div class="grid-container">
+            {% for score, image_urls in images_with_urls %}
+                <div class="grid-item">
+                    <p>Score: {{ score }}</p>
+                    {% for image_url in image_urls %}
+                        <img src="{{ image_url }}" alt="Search result image">
+                    {% endfor %}
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</body>
+</html>

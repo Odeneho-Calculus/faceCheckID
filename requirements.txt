@@ -1,0 +1,6 @@
+# requirements.txt
+flask
+python-telegram-bot
+requests
+sqlalchemy
+beautifulsoup4
