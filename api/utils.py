@@ -6,7 +6,7 @@ import time
 import requests
 from bs4 import BeautifulSoup
 
-APITOKEN = 'oIitEgME/Xby42/E69De8AWr6A+Tobjb//7fYnyld/CBMCJ4HOn+12/7irSYDOUF4ZUD42NyjRc='  # Replace with your actual API token
+APITOKEN = 'TOKENINHERE'  # Replace with your actual API token
 TESTING_MODE = True
 
 def search_by_face(image_file):
