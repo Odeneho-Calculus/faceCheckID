@@ -56,16 +56,4 @@ facecheck_bot_project/
 python -m bot.bot
 
 
-## Running the API
-
-python -m api.app
-
-## Testing
-Run the tests using:
-
-python -m unittest discover tests
-
-
-
-### `.gitignore`
 
